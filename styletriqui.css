@@ -1,0 +1,66 @@
+header{
+    align-content: center;
+    width: 100%;
+    height: 40px;
+    background: rgba(21,102,178,1);
+background: -moz-linear-gradient(left, rgba(21,102,178,1) 0%, rgba(18,80,151,1) 29%, rgba(18,80,151,1) 68%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(21,102,178,1)), color-stop(29%, rgba(18,80,151,1)), color-stop(68%, rgba(18,80,151,1)));
+background: -webkit-linear-gradient(left, rgba(21,102,178,1) 0%, rgba(18,80,151,1) 29%, rgba(18,80,151,1) 68%);
+background: -o-linear-gradient(left, rgba(21,102,178,1) 0%, rgba(18,80,151,1) 29%, rgba(18,80,151,1) 68%);
+background: -ms-linear-gradient(left, rgba(21,102,178,1) 0%, rgba(18,80,151,1) 29%, rgba(18,80,151,1) 68%);
+background: linear-gradient(to right, rgba(21,102,178,1) 0%, rgba(18,80,151,1) 29%, rgba(18,80,151,1) 68%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566b2', endColorstr='#125097', GradientType=1 );
+
+}
+h1{
+    height: 60%;
+    text-align: center;
+    background-image: -moz-element()
+}
+  
+  
+  #draggable {
+    width: 90px;
+    height: 90px;
+    padding: 0em;
+    float: left;
+    margin: 0px 0px 0px 0;
+    align-content: center;
+    
+         }
+
+  #droppable { 
+    width: 240px;
+    height: 210px;
+    padding: 0.5em;
+    float: left; 
+    margin: 10px;
+    background: blue; 
+}
+
+.tic{
+    width: 150px;
+    height: 150px;
+    float: left;
+   
+    margin: 5px;
+    background-color: rgb(179, 19, 19);
+      
+}
+body{
+    background: rgba(134,144,208,1);
+    background: -moz-linear-gradient(left, rgba(134,144,208,1) 0%, rgba(49,73,170,1) 24%, rgba(142,152,210,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(134,144,208,1)), color-stop(24%, rgba(49,73,170,1)), color-stop(100%, rgba(142,152,210,1)));
+    background: -webkit-linear-gradient(left, rgba(134,144,208,1) 0%, rgba(49,73,170,1) 24%, rgba(142,152,210,1) 100%);
+    background: -o-linear-gradient(left, rgba(134,144,208,1) 0%, rgba(49,73,170,1) 24%, rgba(142,152,210,1) 100%);
+    background: -ms-linear-gradient(left, rgba(134,144,208,1) 0%, rgba(49,73,170,1) 24%, rgba(142,152,210,1) 100%);
+    background: linear-gradient(to right, rgba(134,144,208,1) 0%, rgba(49,73,170,1) 24%, rgba(142,152,210,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8690d0', endColorstr='#8e98d2', GradientType=1 );
+}
+footer{
+    background-color: aqua;
+}
+
+
+
+
